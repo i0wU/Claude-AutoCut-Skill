@@ -1,0 +1,336 @@
+{
+ "subject": "demo: how to edit a video automatically",
+ "characters": {
+  "criador": "the host behind the desk",
+  "ia": "a friendly laptop"
+ },
+ "note": "example only: write your own scenes from speech.md; on-screen words must be spoken in your video",
+ "cenas": [
+  {
+   "id": "s01",
+   "t0": 0.0,
+   "t1": 4.5,
+   "cenario": {
+    "nome": "quarto"
+   },
+   "camera": [
+    [
+     0.0,
+     600,
+     527,
+     1.0
+    ],
+    [
+     4.5,
+     600,
+     515,
+     1.05
+    ]
+   ],
+   "atores": [
+    {
+     "nome": "criador",
+     "partes": true,
+     "fala": true,
+     "x": 520,
+     "y": 905,
+     "chaves": [
+      {
+       "t": 0.0,
+       "pose": "apresenta",
+       "rosto": "feliz"
+      },
+      {
+       "t": 2.7,
+       "pose": "mesa",
+       "rosto": "neutro"
+      }
+     ]
+    }
+   ],
+   "objetos": [
+    {
+     "tipo": "celular_tripe",
+     "x": 960,
+     "y": 1000,
+     "s": 0.85,
+     "entra": 0.0,
+     "efeito": "nenhum",
+     "camada": "frente"
+    }
+   ],
+   "textos": [
+    {
+     "t": 0.1,
+     "ate": 2.6,
+     "txt": "HELLO|EVERYONE",
+     "x": 760,
+     "y": 350,
+     "tam": 88
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "t0": 4.5,
+   "t1": 12.5,
+   "cenario": {
+    "nome": "bancada"
+   },
+   "transicao": {
+    "tipo": "rasgo",
+    "dur": 0.5
+   },
+   "camera": [
+    [
+     4.5,
+     600,
+     527,
+     1.0
+    ]
+   ],
+   "atores": [
+    {
+     "nome": "criador",
+     "partes": true,
+     "fala": true,
+     "x": 520,
+     "y": 905,
+     "chaves": [
+      {
+       "t": 4.5,
+       "pose": "explica",
+       "rosto": "confiante"
+      },
+      {
+       "t": 8.8,
+       "pose": "aponta_dir",
+       "rosto": "feliz",
+       "olhar": [
+        1,
+        0.1
+       ]
+      }
+     ]
+    }
+   ],
+   "objetos": [
+    {
+     "tipo": "tesoura",
+     "x": 950,
+     "y": 520,
+     "s": 0.6,
+     "entra": 8.8,
+     "efeito": "pop",
+     "camada": "frente"
+    }
+   ],
+   "textos": [
+    {
+     "t": 8.8,
+     "ate": 11.6,
+     "txt": "EDIT",
+     "destaque": [
+      "EDIT"
+     ],
+     "x": 780,
+     "y": 330,
+     "tam": 92
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "t0": 12.5,
+   "t1": 19.2,
+   "cenario": {
+    "nome": "sala"
+   },
+   "transicao": {
+    "tipo": "rasgo",
+    "dur": 0.5
+   },
+   "camera": [
+    [
+     12.5,
+     600,
+     527,
+     1.0
+    ],
+    [
+     19.2,
+     620,
+     520,
+     1.08
+    ]
+   ],
+   "atores": [
+    {
+     "nome": "criador",
+     "partes": true,
+     "fala": true,
+     "x": 520,
+     "y": 905,
+     "chaves": [
+      {
+       "t": 12.5,
+       "pose": "coca_cabeca",
+       "rosto": "pensativo"
+      },
+      {
+       "t": 15.0,
+       "pose": "nao",
+       "rosto": "confiante",
+       "nega": true
+      }
+     ]
+    }
+   ],
+   "objetos": [
+    {
+     "tipo": "interrogacao",
+     "x": 900,
+     "y": 360,
+     "s": 0.7,
+     "entra": 13.0,
+     "efeito": "pop",
+     "camada": "frente"
+    }
+   ],
+   "textos": []
+  },
+  {
+   "id": "s04",
+   "t0": 19.2,
+   "t1": 25.5,
+   "cenario": {
+    "nome": "quarto"
+   },
+   "transicao": {
+    "tipo": "rasgo",
+    "dur": 0.5
+   },
+   "camera": [
+    [
+     19.2,
+     600,
+     527,
+     1.0
+    ]
+   ],
+   "atores": [
+    {
+     "nome": "criador",
+     "partes": true,
+     "fala": true,
+     "x": 470,
+     "y": 905,
+     "chaves": [
+      {
+       "t": 19.2,
+       "pose": "explica",
+       "rosto": "feliz"
+      },
+      {
+       "t": 22.3,
+       "pose": "um",
+       "rosto": "confiante"
+      }
+     ]
+    },
+    {
+     "nome": "ia",
+     "x": 900,
+     "y": 905,
+     "chaves": [
+      {
+       "t": 19.2,
+       "rosto": "atenta",
+       "ligado": 0
+      },
+      {
+       "t": 20.0,
+       "rosto": "feliz",
+       "ligado": 1
+      }
+     ]
+    }
+   ],
+   "objetos": [
+    {
+     "tipo": "estrela",
+     "x": 1000,
+     "y": 300,
+     "s": 0.6,
+     "entra": 20.8,
+     "efeito": "pop",
+     "camada": "frente"
+    }
+   ],
+   "textos": [
+    {
+     "t": 20.8,
+     "ate": 23.0,
+     "txt": "SIMPLE",
+     "x": 600,
+     "y": 330,
+     "tam": 96
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "t0": 25.5,
+   "t1": 32.466,
+   "cenario": {
+    "nome": "quarto"
+   },
+   "camera": [
+    [
+     25.5,
+     600,
+     527,
+     1.0
+    ],
+    [
+     32.466,
+     600,
+     510,
+     1.06
+    ]
+   ],
+   "atores": [
+    {
+     "nome": "criador",
+     "partes": true,
+     "fala": true,
+     "x": 520,
+     "y": 905,
+     "chaves": [
+      {
+       "t": 25.5,
+       "pose": "joinha",
+       "rosto": "feliz"
+      },
+      {
+       "t": 28.5,
+       "pose": "mesa",
+       "rosto": "feliz"
+      }
+     ]
+    }
+   ],
+   "objetos": [],
+   "textos": [
+    {
+     "t": 26.2,
+     "ate": 28.6,
+     "txt": "THANKS",
+     "x": 760,
+     "y": 350,
+     "tam": 88
+    }
+   ]
+  }
+ ]
+}

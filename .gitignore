@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv*/
+venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Node
+node_modules/
+
+# Media, projects and renders never belong in this repository
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.wav
+*.mp3
+*.m4a
+*.png
+*.jpg
+*.jpeg
+*.gif
+renders/
+reviews/
+snapshots/
+edits/
+cartoons/
+captions/
+work/
+
+# Secrets and local configuration
+.env
+.env.*
+*.pem
+*.key
+private_terms.txt
+.claude/settings.local.json
